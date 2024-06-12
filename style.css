@@ -21,6 +21,7 @@ body{
 #header-logo{
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bolder;
 }
 
 ul{
@@ -43,7 +44,6 @@ ul{
 
 .text-container{
     width: 300px;
-
 }
 
 #hero-text{
@@ -58,11 +58,22 @@ ul{
     color: #e5e7eb;
 }
 
+#hero-image{
+    height: 200px;
+    width: 350px;
+    border-radius: 25px;
+}
+
+#hero-button{
+    padding: 10px 20px;
+}
+
 .section-two{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 25px;
 }
 
 h2{
@@ -74,19 +85,25 @@ h2{
 .box-container{
     display: flex;
     justify-content: center;
-    gap: 20px;
     align-items: center;
-    padding: 50px;
+    gap: 50px;
+    margin: 25px;
 }
 
 .box{
-    border: solid red 1px;
-    width: 200px;
-    height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    width: 300px;
+    text-align: center;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+img{
+    height: 100px;
+    width: 150px;
+    border-radius: 25px;
 }
 
 .section-three{
@@ -107,10 +124,12 @@ h2{
     font-style: italic;
     color: #1f2937;
     text-align: left;
+    font-weight:normal;
 }
 
 #author{
     text-align: right;
+    font-weight: bolder;
 }
 
 .section-four{
@@ -121,19 +140,45 @@ h2{
 
 .call-to-action{
     display: flex;
+    padding: 25px 50px;
     gap: 50px;
-    width: 500px;
+    width: 750px;
     background-color: #3882f6;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 25px;
+}
+
+.call-to-action-text{
+    color: #f9faf8 ;
+    font-size: 18px;
+    width: 500px;
+}
+
+#ctahead{
+    font-weight: bolder;
+}
+
+button{
+    padding: 10px 20px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: solid #f9faf8;
+    border-radius: 25px;
 }
     
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 16px;
     background-color: #1f2937;
     color: white;
 }
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
